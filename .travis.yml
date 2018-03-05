@@ -25,5 +25,5 @@ deploy:
   api_key:
     secure: cVXVu9Bx27hf106+cFe3yKt/XWqfApkTOj46ZTYK521itJdoKR4ZVJlPf89VmKkXaLDSDmD+IPMTNeKMnAIfqwRGIFxFIBMeIm+pIzl1Dx9naPmIVHUjg0vPsVM+28i+MUoQ073TKwSUcYydwSMleBSalHfYnwTDhc/9PBGudrdmZwl7WGGrsan4sWjtW0GdhpeXcpkMz1raoyMRaoxXcrZUavf3LlC6yqKfpVP68D1tPgATbMrawGo6Z6piF2Il2JSvT00EZlxpvcsdLXEJnkl9POaP+VLz33ZCLvDPnmU/oTzBOZJpPRQlouCd5j3f02FNKa/1lNj5THxpxZPkY5JOVBPw2Gb76dLsBMeP/+hjOjZiOftDv2RbzXJ9QgTEd2QehjZ2IS9XODWipnzrqXTASQOoiPTYh5k04wLRNg7njQuGiF2oCZ6AmCuixMq1e5d/YJR4XazE+7y0jt+WiRrPA2tRBjiZBYIQFGRWU9wT7hyvnm6RlDj89Sliwc8s+WCLlbX3W4UMF60ot3reAB1A9EFH2gC8dQMHxnrQ361ISVVOgBtTizUAi8gA8Uq+5GyPLNkXZGA2+x4ynnvyC24p+4LOTOpC7nSikfTc89uaEeRDVdkSuryfzLIgRs47ObNtZ6QFOMt0/Zd+whBlaASaGTjkf4mJl8A/hhMqI/s=
   app:
-      master: space-name-here
-      staging: space-name-here-staging
+      master: sf-part-3
+      staging: sf-part-3-staging
