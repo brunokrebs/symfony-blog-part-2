@@ -34,6 +34,9 @@ if ($trustedHosts = $_SERVER['TRUSTED_HOSTS'] ?? false) {
 
 $kernel = new Kernel($env, $debug);
 $request = Request::createFromGlobals();
+
+Request::setTrustedProxies(array($request->server->get('REMOTE_ADDR')), Request::HEADER_FORWARDED);
+
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
