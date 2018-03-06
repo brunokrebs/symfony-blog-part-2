@@ -21,5 +21,6 @@ security:
         main:
             anonymous: ~
     access_control:
+        - { path: /, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
         - { path: ^/secured, roles: ROLE_OAUTH_USER, requires_channel: https }
